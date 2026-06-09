@@ -43,7 +43,7 @@ Hệ thống HIS hỗ trợ 3 phân hệ để người dùng nhập thông tin 
 
 ```json
 {
-  "urlLogin": "[https://skss.tkyt.vn/api/lien-thong/tai-khoan/dang-nhap](https://skss.tkyt.vn/api/lien-thong/tai-khoan/dang-nhap)",
+  "urlLogin": "https://skss.tkyt.vn/api/lien-thong/tai-khoan/dang-nhap",
   "method": "POST",
   "contentType": "application/x-www-form-urlencoded",
   "params": {
@@ -57,7 +57,7 @@ Hệ thống HIS hỗ trợ 3 phân hệ để người dùng nhập thông tin 
 *Dùng để cấu hình đường dẫn API tiếp nhận gói tin XML dữ liệu lâm sàng.*
 ```json
 {
-  "Url": "[https://skss.tkyt.vn/api/lien-thong/tiep-nhan](https://skss.tkyt.vn/api/lien-thong/tiep-nhan)",
+  "Url": "https://skss.tkyt.vn/api/lien-thong/tiep-nhan",
   "Method": "POST",
   "Headers": {
     "Content-Type": "application/xml"
