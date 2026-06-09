@@ -365,7 +365,7 @@ SELECT inet_server_addr(),
 ## Kiểm tra môi trường
 
 * [ ] Đúng PostgreSQL Instance
-* [x] Đúng Port
+* [ ] Đúng Port
 * [ ] Đúng Database
 * [ ] Đúng Data Directory
 
