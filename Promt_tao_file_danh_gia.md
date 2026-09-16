@@ -53,7 +53,7 @@ Mở rộng kiến thức từ các câu sai sang toàn bộ hệ sinh thái ki�
 - Thiết kế 4–8 câu bài tập mới tập trung trực diện vào:
   + Các điểm ngữ pháp/từ vựng học viên vừa làm sai.
   + Các dạng câu hỏi có gài "bẫy tương tự" và các phương án gây nhiễu vừa được phân tích ở Phần 4.
-- Cung cấp đáp án vắn tắt và lời giải thích chốt hạ ở ngay bên dưới.
+- Không cung cấp đáp án và lời giải thích.
 
 ---
 
