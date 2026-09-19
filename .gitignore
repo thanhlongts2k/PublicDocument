@@ -1,0 +1,10 @@
+# Generated output documents
+output/
+
+# Document generator tools & internal data
+doc_tools/
+
+# Python cache & temporary files
+__pycache__/
+*.pyc
+*.pyo
