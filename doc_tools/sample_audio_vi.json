@@ -1,0 +1,88 @@
+{
+  "title": "DE_THI_NGHE_HIEU_TIENG_VIET_DEMO",
+  "language": "vi-VN",
+  "output_mode": "both",
+  "settings": {
+    "narrator_voice": "vi-VN-NamMinhNeural",
+    "male_voice": "vi-VN-NamMinhNeural",
+    "female_voice": "vi-VN-HoaiMyNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz",
+    "pause_after_intro": 2.0,
+    "pause_after_instruction": 1.5,
+    "pause_between_dialogue": 0.9,
+    "pause_before_question": 1.5,
+    "pause_thinking_default": 10.0,
+    "pause_between_questions": 3.0
+  },
+  "intro": "Chào mừng các bạn đến với bài kiểm tra năng lực nghe hiểu. Bài thi gồm hai câu hỏi tình huống thực tế. Các bạn sẽ được nghe đoạn hội thoại, sau đó nghe câu hỏi và có mười giây để suy nghĩ chọn đáp án đúng nhất. Hãy tập trung lắng nghe.",
+  "questions": [
+    {
+      "id": 1,
+      "title": "Câu hỏi số 1",
+      "instruction": "Hãy lắng nghe cuộc trò chuyện giữa hai đồng nghiệp tại văn phòng công ty và trả lời câu hỏi.",
+      "dialogue": [
+        {
+          "speaker": "female",
+          "text": "Anh Minh ơi, báo cáo tiến độ dự án tự động hóa tuần này anh đã nộp cho ban giám đốc chưa?"
+        },
+        {
+          "speaker": "male",
+          "text": "Tôi vừa hoàn tất kiểm tra số liệu sáng nay rồi. Dự kiến đầu giờ chiều nay sau cuộc họp giao ban sẽ gửi trực tiếp cho giám đốc."
+        },
+        {
+          "speaker": "female",
+          "text": "Vâng, vậy phần tài liệu kỹ thuật đính kèm em đã in sẵn năm bộ để trên bàn của anh rồi nhé."
+        },
+        {
+          "speaker": "male",
+          "text": "Cảm ơn Hoài My nhiều nhé, chu đáo quá!"
+        }
+      ],
+      "question": "Câu hỏi: Khi nào anh Minh sẽ gửi báo cáo tiến độ cho ban giám đốc?",
+      "read_options": true,
+      "options": [
+        "Phương án A: Ngay trong sáng nay trước giờ họp",
+        "Phương án B: Đầu giờ chiều nay sau cuộc họp giao ban",
+        "Phương án C: Vào cuối tuần sau khi in xong tài liệu",
+        "Phương án D: Ngày mai sau khi xin ý kiến phòng kỹ thuật"
+      ],
+      "repeat": 1,
+      "thinking_time": 10
+    },
+    {
+      "id": 2,
+      "title": "Câu hỏi số 2",
+      "instruction": "Hãy lắng nghe cuộc trao đổi giữa khách hàng và nhân viên chăm sóc khách hàng qua điện thoại.",
+      "dialogue": [
+        {
+          "speaker": "male",
+          "text": "Alo, xin chào tổng đài. Tôi muốn hỏi về đơn hàng sách trực tuyến đặt hôm thứ Ba, hiện tại vẫn chưa nhận được hàng."
+        },
+        {
+          "speaker": "female",
+          "text": "Dạ em chào anh. Em đã kiểm tra mã đơn hàng của mình rồi ạ. Đơn hàng đã được chuyển đến bưu cục quận 1 vào sáng sớm nay. Dự kiến nhân viên giao hàng sẽ liên hệ với anh trước 16 giờ chiều nay ạ."
+        },
+        {
+          "speaker": "male",
+          "text": "À tốt quá. Chiều nay tôi có ở nhà, cảm ơn bạn nhiều nhé."
+        },
+        {
+          "speaker": "female",
+          "text": "Dạ vâng, chúc anh một ngày làm việc vui vẻ ạ!"
+        }
+      ],
+      "question": "Câu hỏi: Nhân viên giao hàng dự kiến sẽ giao kiện hàng đến cho khách hàng vào thời gian nào?",
+      "read_options": true,
+      "options": [
+        "Phương án A: Vào sáng sớm ngày mai tại bưu cục",
+        "Phương án B: Trước 16 giờ chiều nay tại nhà khách hàng",
+        "Phương án C: Vào ngày thứ Ba của tuần sau",
+        "Phương án D: Ngay sau khi khách hàng gọi điện 30 phút"
+      ],
+      "repeat": 1,
+      "thinking_time": 10
+    }
+  ],
+  "outro": "Đã hết thời gian làm bài kiểm tra nghe hiểu. Cảm ơn các bạn đã lắng nghe và hoàn thành bài thi."
+}

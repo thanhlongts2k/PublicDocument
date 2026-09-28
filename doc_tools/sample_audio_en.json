@@ -1,0 +1,55 @@
+{
+  "title": "ENGLISH_LISTENING_PRACTICE_SAMPLE",
+  "language": "en-US",
+  "output_mode": "both",
+  "settings": {
+    "narrator_voice": "en-US-JennyNeural",
+    "male_voice": "en-US-GuyNeural",
+    "female_voice": "en-US-JennyNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz",
+    "pause_after_intro": 2.0,
+    "pause_after_instruction": 1.5,
+    "pause_between_dialogue": 0.8,
+    "pause_before_question": 1.5,
+    "pause_thinking_default": 10.0,
+    "pause_between_questions": 3.0
+  },
+  "intro": "Welcome to the English Listening Proficiency Test. There are two questions in this section. Please listen carefully to the conversations and choose the best answer for each question.",
+  "questions": [
+    {
+      "id": 1,
+      "title": "Question number 1",
+      "instruction": "Listen to a conversation between two colleagues at an office.",
+      "dialogue": [
+        {
+          "speaker": "female",
+          "text": "Excuse me, Mark. Have you seen the quarterly sales figures yet?"
+        },
+        {
+          "speaker": "male",
+          "text": "Yes, I just reviewed them. Overall revenue is up by fifteen percent compared to last quarter."
+        },
+        {
+          "speaker": "female",
+          "text": "That's fantastic news! Will you be presenting these results at tomorrow's team meeting?"
+        },
+        {
+          "speaker": "male",
+          "text": "Definitely. I am putting together the slide deck right now."
+        }
+      ],
+      "question": "What is the man currently working on?",
+      "read_options": true,
+      "options": [
+        "A: Contacting potential clients",
+        "B: Preparing a presentation slide deck",
+        "C: Booking a meeting room for tomorrow",
+        "D: Calculating the annual budget"
+      ],
+      "repeat": 1,
+      "thinking_time": 10
+    }
+  ],
+  "outro": "This is the end of the listening practice test. Thank you for your participation."
+}

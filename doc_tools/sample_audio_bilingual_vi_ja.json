@@ -1,0 +1,55 @@
+{
+  "title": "DE_THI_SONG_NGU_VIET_NHAT_DEMO",
+  "language": "vi-VN",
+  "output_mode": "both",
+  "settings": {
+    "narrator_voice": "vi-VN-NamMinhNeural",
+    "male_voice": "ja-JP-KeitaNeural",
+    "female_voice": "ja-JP-NanamiNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz",
+    "pause_after_intro": 2.0,
+    "pause_after_instruction": 1.5,
+    "pause_between_dialogue": 0.8,
+    "pause_before_question": 1.5,
+    "pause_thinking_default": 10.0,
+    "pause_between_questions": 3.0
+  },
+  "intro": "Chào mừng các bạn đến với bài luyện thi nghe hiểu song ngữ Việt - Nhật. Các bạn sẽ được nghe lời dẫn và câu hỏi bằng tiếng Việt, và đoạn hội thoại giao tiếp bằng tiếng Nhật chuẩn bản xứ. Hãy tập trung lắng nghe.",
+  "questions": [
+    {
+      "id": 1,
+      "title": "Câu hỏi số 1",
+      "instruction": "Hãy lắng nghe cuộc trò chuyện giữa hai người bạn tại nhà ga Tokyo về thời gian chuyến tàu và trả lời câu hỏi.",
+      "dialogue": [
+        {
+          "speaker": "male_ja",
+          "text": "佐藤さん、次の新宿行きの電車は何時ですか。"
+        },
+        {
+          "speaker": "female_ja",
+          "text": "ええと、10時15分発の快速ですよ。まだ10分ありますね。"
+        },
+        {
+          "speaker": "male_ja",
+          "text": "よかった。じゃあ、売店で飲み物を買ってきます。"
+        },
+        {
+          "speaker": "female_ja",
+          "text": "はい、お茶をお願いします。"
+        }
+      ],
+      "question": "Câu hỏi: Chuyến tàu tiếp theo đi Shinjuku sẽ khởi hành vào lúc mấy giờ?",
+      "read_options": true,
+      "options": [
+        "Phương án A: Lúc 10 giờ đúng",
+        "Phương án B: Lúc 10 giờ 15 phút",
+        "Phương án C: Lúc 10 giờ 30 phút",
+        "Phương án D: Lúc 11 giờ kém 15"
+      ],
+      "repeat": 1,
+      "thinking_time": 10
+    }
+  ],
+  "outro": "Đã hết thời gian làm bài nghe hiểu song ngữ. Cảm ơn các bạn đã lắng nghe và hoàn thành bài thi."
+}

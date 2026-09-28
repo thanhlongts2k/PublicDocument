@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "BÁO CÁO ĐÁNH GIÁ, PHÂN TÍCH LỖI SAI & GIẢI THÍCH CHI TIẾT",
+    "subtitle": "Khung Đào Tạo Nâng Cao Năng Lực Học Thuật & Chiến Thuật Phòng Thi JLPT N3",
+    "subject_code": "JLPT_N3",
+    "type_code": "DanhGia",
+    "student_code": "TranVanMinh",
+    "student_name": "Trần Văn Minh",
+    "topic_code": "NguPhapTuan01",
+    "exam_set": "Đề Luyện Tập Ngữ Pháp N3 - Tuần 01",
+    "score_summary": "6 / 8 (75.0%)",
+    "date_code": "20260919",
+    "date": "19/09/2026",
+    "version": "1",
+    "core_strengths": "Nắm rất tốt các mẫu ngữ pháp cơ bản và phản xạ nhanh với bài đọc hiểu ngắn; khả năng nắm bắt ý chính của tác giả chính xác.",
+    "key_weaknesses": "Còn nhầm lẫn sâu sắc giữa sắc thái cảm giác chủ quan (~気味) và xu hướng/tần suất khách quan (~がち); bẫy liên kết từ loại."
+  },
+  "summary_results": [
+    {
+      "question_number": 1,
+      "student_choice": "B (がち)",
+      "correct_answer": "A (気味)",
+      "is_correct": false,
+      "question_content": "最近、仕事が忙しくて少し疲れ（　　）だから、今夜は早く寝よう。",
+      "translation": "Dạo này công việc bận rộn nên có cảm giác hơi mệt một chút, tối nay ngủ sớm thôi.",
+      "brief_explanation": "Diễn tả cảm giác thể chất/tâm lý mang tính nhất thời ở hiện tại ('hơi có cảm giác...'), phải dùng 〜気味 (ぎみ). Không dùng 〜がち (thường xuyên/dễ xảy ra theo tần suất)."
+    },
+    {
+      "question_number": 2,
+      "student_choice": "B (なりがち)",
+      "correct_answer": "B (なりがち)",
+      "is_correct": true,
+      "question_content": "一人暮らしを始めてからというもの、野菜不足に（　　）な食生活が続いている。",
+      "translation": "Kể từ khi bắt đầu sống một mình, chế độ ăn uống dễ bị thiếu rau cứ tiếp diễn.",
+      "brief_explanation": "Diễn tả xu hướng tiêu cực thường hay diễn ra lặp đi lặp lại trong một thói quen/lối sống, dùng 〜がち (なりがち)."
+    },
+    {
+      "question_number": 3,
+      "student_choice": "A (だらけ)",
+      "correct_answer": "A (だらけ)",
+      "is_correct": true,
+      "question_content": "泥（　　）の靴のまま部屋に入らないでください。",
+      "translation": "Xin đừng mang đôi giày đầy bùn bước vào phòng.",
+      "brief_explanation": "Bùn bám dính đầy bề mặt mắt nhìn thấy được mang tính tiêu cực $\\rightarrow$ Dùng N + だらけ."
+    },
+    {
+      "question_number": 4,
+      "student_choice": "C (がち)",
+      "correct_answer": "A (っぽい)",
+      "is_correct": false,
+      "question_content": "彼はまだ二十代なのに、考え方が妙に大人（　　）ところがある。",
+      "translation": "Anh ấy mới đôi mươi mà cách suy nghĩ có nét gì đó già dặn như người lớn.",
+      "brief_explanation": "Diễn tả 'có vẻ/có nét tính chất giống như...', dùng N + っぽい (大人っぽい). 〜がち không đi trực tiếp với Danh từ chỉ người để tả tính cách."
+    },
+    {
+      "question_number": 5,
+      "student_choice": "2 (風も)",
+      "correct_answer": "2 (風も)",
+      "is_correct": true,
+      "question_content": "雨が降って【きたし】 【風も】 ★【強くなって】 【きたから】 出かけるのはやめよう。",
+      "translation": "Trời đã bắt đầu mưa rồi, gió lại còn mạnh lên nữa nên thôi đừng ra ngoài.",
+      "brief_explanation": "Thứ tự sắp xếp đúng: 1 - 2 - 3 - 4. Vị trí ngôi sao là cụm số 3."
+    },
+    {
+      "question_number": 6,
+      "student_choice": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "question_content": "筆者が最も伝えたいことは何か。",
+      "translation": "Điều tác giả muốn truyền đạt nhất là gì?",
+      "brief_explanation": "Khớp với câu chốt đoạn văn: đối diện với điểm yếu và tìm nguyên nhân khách quan để trưởng thành."
+    },
+    {
+      "question_number": 7,
+      "student_choice": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "question_content": "「同じ過ちを繰り返す可能性が高い」とあるが、それはどのような場合か。",
+      "translation": "'Có khả năng cao lặp lại sai lầm', đó là trong trường hợp nào?",
+      "brief_explanation": "Đoạn văn chỉ rõ: '他人のせいにしたり、言い訳を探したりしているうちは...'"
+    },
+    {
+      "question_number": 8,
+      "student_choice": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "question_content": "この文章における「本当の成長」とは何を指しているか。",
+      "translation": "'Sự trưởng thành thực sự' chỉ điều gì?",
+      "brief_explanation": "Đoạn văn khẳng định: '弱点と向き合い、それを乗り越えた先'."
+    }
+  ],
+  "error_analyses": [
+    {
+      "question_number": 1,
+      "question_text": "最近、仕事が忙しくて少し疲れ（　　）だから、今夜は早く寝よう。",
+      "error_phenomenon": "Học viên chọn phương án B (がち) thay vì đáp án đúng là A (気味).",
+      "root_cause": "Nhầm lẫn giữa biểu hiện cảm giác thể trạng tạm thời ở hiện tại với thói quen/tần suất lặp lại. Thấy '最近' liền vội suy luận sang tần suất (がち), bỏ qua từ định lượng trạng thái '少し' và bản chất cảm giác của cơ thể.",
+      "core_rule": "V-masu / N + 気味 (ぎみ): Dùng khi người nói 'có cảm giác, thể trạng hơi...' (thường là tiêu cực như 疲れ気味 - hơi mệt, 風邪気味 - hơi cảm sốt, 太り気味 - hơi béo ra). Đây là cảm giác nội tại ở thời điểm nói, KHÔNG phải tần suất hành động."
+    },
+    {
+      "question_number": 4,
+      "question_text": "彼はまだ二十代なのに、考え方が妙に大人（　　）ところがある。",
+      "error_phenomenon": "Học viên chọn C (がち) thay vì đáp án đúng là A (っぽい).",
+      "root_cause": "Dịch thô theo nghĩa tiếng Việt: 'thường hay như người lớn' nên chọn がち mà quên mất quy tắc kết hợp từ loại và bản chất nghĩa. 大人 là danh từ, 大人っぽい là mang hơi hướng/sắc thái người lớn.",
+      "core_rule": "N / Tính từ / V-masu + っぽい: Mang sắc thái 'có cảm giác như/thiên về tính chất đó' (大人っぽい - già dặn như người lớn, 子どもっぽい - trẻ con, 怒りっぽい - hay cáu, 安っぽい - trông rẻ tiền)."
+    }
+  ],
+  "confusion_matrix": {
+    "rows": [
+      {
+        "structure": "〜気味 (ぎみ)",
+        "meaning": "Hơi có cảm giác / triệu chứng...",
+        "connection": "V-masu / N + 気味",
+        "nuance": "Thể trạng, tâm lý tiêu cực mang tính tạm thời ở hiện tại. Hay đi với: 少し, ちょっと.",
+        "example": "風邪気味で頭が痛い。(Hơi có triệu chứng cảm nên đầu bị đau.)"
+      },
+      {
+        "structure": "〜がち",
+        "meaning": "Thường hay / Dễ có xu hướng...",
+        "connection": "V-masu / N + がち",
+        "nuance": "Tần suất xảy ra nhiều, xu hướng tiêu cực kéo dài thành thói quen. Hay đi với: つい, どうしても, 最近.",
+        "example": "冬は風邪をひきがちだ。(Mùa đông thì hay bị cảm.)"
+      },
+      {
+        "structure": "〜っぽい",
+        "meaning": "Có vẻ / Đậm chất / Thiên về tính chất...",
+        "connection": "N / Tính từ bỏ い, な / V-masu + っぽい",
+        "nuance": "Nhìn bên ngoài tạo cảm giác giống tính chất đó; hoặc thiên bẩm dễ bị (dễ nổi nóng).",
+        "example": "あの服はデザインが安っぽい。(Bộ quần áo đó trông rẻ tiền.)"
+      },
+      {
+        "structure": "〜だらけ",
+        "meaning": "Toàn là / Đầy là...",
+        "connection": "N + だらけ",
+        "nuance": "Vật bẩn thỉu, tiêu cực bám đầy bề mặt nhìn thấy được (bùn, nợ, lỗi sai, rác).",
+        "example": "間違いだらけの答案。(Bài thi toàn là lỗi sai.)"
+      }
+    ],
+    "exam_traps": [
+      {
+        "trap_name": "Bẫy từ định lượng (少し vs つい/どうしても)",
+        "trap_description": "Khi thấy '少し' (một chút) thì 99% đáp án là 〜気味; nếu thấy 'つい' (lỡ/buộc lòng) hoặc thói quen lặp đi lặp lại thì đáp án hướng về 〜がち."
+      },
+      {
+        "trap_name": "Bẫy từ loại kết hợp",
+        "trap_description": "N + っぽい biến cụm từ thành tính từ đuôi な/い (大人っぽい人); còn がち chỉ đứng sau danh từ mang tính trạng thái/bệnh tật (留守がち, 病気がち), không gắn bừa vào danh từ người."
+      }
+    ],
+    "quick_checklist": [
+      "Thấy 'cảm sốt, mệt mỏi, béo ra' (風邪, 疲れ, 太り) + 'hơi một chút' $\\rightarrow$ Chọn ngay 気味!",
+      "Thấy thói quen xấu, lặp đi lặp lại theo mùa/cuộc sống (忘れ〜, 遅れ〜, 不足に〜) $\\rightarrow$ Chọn ngay がち!",
+      "Thấy nhận xét bản chất bề ngoài (trẻ con, người lớn, rẻ tiền, nhiều dầu mỡ) $\\rightarrow$ Chọn ngay っぽい!"
+    ]
+  },
+  "drill_exercises": [
+    {
+      "question": "最近、夜遅くまでゲームをしていて、授業中につい居眠りを（　　）。",
+      "options": ["A. し気味だ", "B. しがちだ", "C. しっぽい", "D. しだらけだ"]
+    },
+    {
+      "question": "今朝から喉が痛くて、どうも熱（　　）なので早退します。",
+      "options": ["A. 気味", "B. がち", "C. っぽい", "D. だらけ"]
+    },
+    {
+      "question": "このスープは少し油（　　）て、私の口には合わない。",
+      "options": ["A. がちで", "B. 気味で", "C. っぽく", "D. だらけで"]
+    },
+    {
+      "question": "祖父は最近、足腰が弱くなって家に（　　）の生活を送っている。",
+      "options": ["A. こもり気味", "B. こもりがち", "C. こもりっぽい", "D. こもりだらけ"]
+    }
+  ]
+}

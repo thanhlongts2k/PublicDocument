@@ -1,0 +1,22 @@
+# ==============================================================================
+# REQUIREMENTS - BỘ CÔNG CỤ XUẤT ĐỀ THI, BÁO CÁO ĐÁNH GIÁ & ĐỀ THI ÂM THANH
+# Workspace: PublicDocument (doc_tools)
+# ==============================================================================
+
+# --- 1. Tạo Đề Thi & Báo Cáo Đánh Giá (Word .docx & PDF Print-Ready) ---
+# Thư viện tạo file Microsoft Word (.docx) chuẩn format, bảng biểu, phiếu tô, khung border
+python-docx>=1.1.2
+
+# COM Automation điều khiển Microsoft Word trên Windows để xuất file PDF độ nét tối đa
+pywin32>=306; sys_platform == 'win32'
+
+
+# --- 2. Bộ Công Cụ Tạo Đề Thi Âm Thanh (Audio Exam Generator - .mp3) ---
+# Engine AI Text-to-Speech tự nhiên (Nhật, Việt, Anh), đa giọng đọc, không cần API key
+edge-tts>=7.0.0
+
+# Bộ mã hóa LAME MP3 Encoder xử lý bitstream 24kHz Mono 48kbps, tạo khoảng lặng chuẩn xác
+lameenc>=1.7.0
+
+# Thư viện giải mã / kiểm tra thông tin file âm thanh siêu tốc (sample rate, duration)
+miniaudio>=1.60

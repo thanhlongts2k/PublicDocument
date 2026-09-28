@@ -5,17 +5,31 @@ Bộ công cụ tự động hóa biên soạn và kết xuất tài liệu theo
 > ⚠️ **QUY CHUẨN ĐỊNH DẠNG ĐẦU RA BẮT BUỘC (MANDATORY OUTPUT RULE):**
 > * 🖨️ **File ĐỀ THI (Exam Paper):** **CHỈ TẠO DUY NHẤT FILE PDF** (`.pdf` Print-Ready). Sẵn sàng bấm lệnh in ấn ngay, áp dụng triệt để *Zero-Key Rule* (không lộ đáp án). File Word `.docx` trung gian sẽ được tự động xóa sau khi render xong.
 > * 📝 **File ĐÁNH GIÁ (Evaluation Report):** **CHỈ TẠO DUY NHẤT FILE WORD** (`.docx`). Đạt chuẩn Microsoft Word/Google Docs để giáo viên và học viên dễ dàng đọc giải thích, ghi chú, phản hồi hoặc biên tập nội dung. Không cần xuất file PDF.
+> * 🎧 **File ĐỀ THI ÂM THANH (Audio Listening Exam):** **BẮT BUỘC CHỈ 1 NGÔN NGỮ DUY NHẤT** (`.mp3` Monolingual Standard). Khi biên soạn và tạo đề thi nghe hiểu (đặc biệt là đề JLPT), **CHỈ THUẦN 100% TIẾNG NHẬT**, tuyệt đối không pha trộn tiếng Việt vào trong đề thi (từ lời dẫn mở đầu, Mondai, hướng dẫn làm bài, đoạn hội thoại nam/nữ, câu hỏi đến lời kết thúc đều thuần 100% tiếng Nhật chuẩn kỳ thi JLPT thật).
+
+
+---
+
+## 🛠️ Cài Đặt Môi Trường (Setup)
+
+Cài đặt nhanh toàn bộ các thư viện cần thiết bằng 1 lệnh duy nhất:
+```powershell
+pip install -r requirements.txt
+```
 
 ---
 
 ## 1. Danh Sách Công Cụ
+
 
 | File Script | Định dạng xuất | Chức năng chính | Quy cách kỹ thuật |
 | :--- | :---: | :--- | :--- |
 | [`generate_exam.py`](file:///d:/AgentAI/PublicDocument/generate_exam.py) | **PDF** (Duy nhất) | Tạo Đề thi từ JSON & Tự động lưu vết vào Bank | Khổ A4, lề 2.5cm, chống gãy câu, phiếu tô, **Zero-Key Rule** |
 | [`generate_evaluation.py`](file:///d:/AgentAI/PublicDocument/generate_evaluation.py) | **Word (.docx)** (Duy nhất) | Tạo Báo cáo đánh giá & Lưu vết lỗi sai vào Bank | Metadata 2x4, [ĐÚNG]/[CHƯA ĐÚNG], Callout cốt lõi, Confusion Matrix |
 | [`assemble_exam.py`](file:///d:/AgentAI/PublicDocument/assemble_exam.py) | **PDF** (Duy nhất) | **Bộ gom đề thông minh từ Question Bank** | Tự động ghép đề Gateway, đề ôn lỗi sai, đề chuyên đề theo tuần |
+| [`generate_audio.py`](file:///d:/AgentAI/PublicDocument/generate_audio.py) | **MP3 (.mp3)** | **Tạo đề thi âm thanh từ kịch bản JSON** | Đa ngôn ngữ (Nhật, Việt, Anh), đa vai đọc AI, tùy biến tốc độ, khoảng lặng |
 | [`doc_tools/pdf_converter.py`](file:///d:/AgentAI/PublicDocument/doc_tools/pdf_converter.py) | Engine PDF | Chuyển đổi Word sang PDF tự động | Dùng Microsoft Word COM Automation, độ nét tối đa 100% |
+
 
 ---
 
@@ -48,7 +62,52 @@ python generate_exam.py doc_tools/exam_week01.json --output-dir output
 python generate_evaluation.py doc_tools/sample_evaluation.json --output-dir output
 ```
 
----
+### D. Tạo Đề Thi Âm Thanh Nghe Hiểu (Xuất ra file .mp3)
+
+> 💡 **Quy tắc sư phạm cốt lõi:** Đề thi nghe hiểu JLPT thực tế **BẮT BUỘC THUẦN 100% TIẾNG NHẬT** (từ lời dẫn mở đầu, số câu Mondai, hội thoại, câu hỏi đến lời kết thúc). Thí sinh nghe băng tiếng Nhật và nhìn đề thi giấy/PDF để tô đáp án, tuyệt đối không pha trộn tiếng Việt vào file đề thi chính thức.
+
+```powershell
+# 1. Tạo Đề thi Nghe hiểu JLPT tiếng Nhật chuẩn phòng thi (Thuần 100% tiếng Nhật - Nanami & Keita):
+python generate_audio.py doc_tools/sample_audio_ja.json --output-dir output
+
+# 2. Xem danh sách các giọng đọc AI bản xứ:
+python generate_audio.py --list-voices
+
+# 3. Tùy biến tốc độ đọc chuẩn thi (-10% cho luyện nghe, +0% thi thật) và thời gian chờ suy nghĩ:
+python generate_audio.py doc_tools/sample_audio_ja.json --speed "+0%" --pause-think 12.0 --mode combined
+
+# 4. Tạo đề thi nghe hiểu tiếng Việt (Dành riêng cho môn thi/đề thi tiếng Việt độc lập):
+python generate_audio.py doc_tools/sample_audio_vi.json --output-dir output
+```
+
+### E. Xuất Đề Thi Trọn Gói Đồng Bộ (PDF & MP3 Vào Cùng 1 Thư Mục)
+
+Toàn bộ file liên quan đến 1 đề thi (Bản in PDF, File Master MP3, danh sách Track lẻ `tracks/`, và Manifest) được tự động gom vào **1 thư mục định danh chuẩn hóa** theo cú pháp:
+`output/[Kỳ_Thi]_[Môn_Học/Trình_Độ]_[Loại_Đề]_[MaDe]_[YYYYMMDD]/`
+
+```powershell
+# Cách 1: Xuất đề nghe hiểu trọn gói từ file JSON chứa cả câu hỏi đề thi và kịch bản audio:
+python generate_exam.py doc_tools/sample_exam_choukai.json
+
+# Cách 2: Kết hợp file đề thi giấy và file kịch bản audio rời:
+python generate_exam.py doc_tools/sample_exam.json --audio-script doc_tools/sample_audio_ja.json
+
+# Cách 3: Từ lệnh generate_audio, kèm thêm cờ --pdf-exam:
+python generate_audio.py doc_tools/sample_audio_ja.json --pdf-exam doc_tools/sample_exam_choukai.json
+```
+
+**Cấu trúc thư mục kết quả tự động sinh ra:**
+```
+output/
+└── JLPT_N3_Choukai_DeLuyenTap_101_20260928/
+    ├── JLPT_N3_Choukai_DeLuyenTap_101_20260928.pdf         # Bản in PDF Print-Ready (A4, Zero-Script)
+    ├── JLPT_N3_Choukai_DeLuyenTap_101_20260928_FULL.mp3    # Master audio toàn bài thi
+    ├── JLPT_N3_Choukai_DeLuyenTap_101_20260928_manifest.json# Manifest kỹ thuật audio & kiểm tra
+    └── tracks/                                            # File mp3 từng câu hỏi
+        ├── Q01_JLPT_N3_Choukai_DeLuyenTap_101_20260928.mp3
+        └── Q02_JLPT_N3_Choukai_DeLuyenTap_101_20260928.mp3
+```
+
 
 ## 3. Quy Trình Làm Việc Hợp Tác Với AI (Khuyên Dùng)
 

@@ -7,10 +7,27 @@ Nhiệm vụ của bạn là nhận nội dung kiến thức, chủ đề hoặc
 
 ---
 
-### 1. QUY TẮC ĐẶT TÊN FILE PDF
-Đề xuất 01 tên file chuẩn lưu trữ số hóa:
-[Kỳ_Thi/Chương_Trình]_[Môn_Học/Trình_Độ]_[Loại_Đề:DeChinhThuc/DeOnTap]_[MaDe]_[YYYYMMDD].pdf
-(Ví dụ: JLPT_N3_DeLuyenTap_Tuan01_De02_20260912.pdf).
+### 1. QUY TẮC ĐẶT TÊN & CẤU TRÚC THƯ MỤC GÓI ĐỀ THI (PACKAGE DIRECTORY STRUCTURE)
+Định dạng tên chuẩn lưu trữ số hóa, đồng bộ 100% giữa bản in PDF và file âm thanh MP3. Mọi tài nguyên thuộc về 01 đề thi được đóng gói tự động trong 01 thư mục định danh duy nhất:
+
+- **Thư mục gói đề thi:** `output/[Kỳ_Thi]_[Môn_Học/Trình_Độ]_[Loại_Đề]_[MaDe]_[YYYYMMDD]/`
+  *(Ví dụ: `output/JLPT_N3_Choukai_DeLuyenTap_101_20260928/`)*
+
+**Cấu trúc bên trong thư mục gói đề:**
+```
+output/
+└── [Kỳ_Thi]_[Môn/Trình_Độ]_[Loại_Đề]_[MaDe]_[YYYYMMDD]/
+    ├── [Tên_Đề].pdf            # Đề thi in ấn chuẩn PDF Print-Ready (A4, Zero-Key, Zero-Script)
+    ├── [Tên_Đề]_FULL.mp3       # File âm thanh master toàn bộ đề thi (nếu có phần nghe Choukai)
+    ├── [Tên_Đề]_manifest.json  # Metadata kỹ thuật: thời lượng, giọng đọc AI, danh sách track
+    └── tracks/                 # Thư mục chứa file âm thanh cắt riêng từng câu hỏi
+        ├── Q01_[Tên_Đề].mp3    # Audio câu hỏi 1
+        ├── Q02_[Tên_Đề].mp3    # Audio câu hỏi 2
+        └── ...
+```
+
+- **Quy tắc đồng bộ:** Tên thư mục cha, tên file PDF, tên file MP3 Master và tên Manifest phải trùng khớp 100% theo tiền tố `[Kỳ_Thi]_[Môn_Học/Trình_Độ]_[Loại_Đề]_[MaDe]_[YYYYMMDD]`. Khi lưu trữ, nén zip hoặc chuyển giao cho giáo viên/học sinh, chỉ cần bàn giao trọn vẹn thư mục này.
+
 
 ---
 
@@ -53,8 +70,16 @@ Phân chia đề thi thành các Mondai/Section/Part rõ ràng, đánh số liê
 3. Dạng Ghép câu dấu sao (Star Arrangement - nếu là tiếng Nhật JLPT):
    - Trình bày trực quan: `Câu gốc: A （  ）（  ）（ ★ ）（  ） B.`
    - Các mảnh ghép: `[1. ... / 2. ... / 3. ... / 4. ...]`
+4. Dạng Nghe hiểu (Listening Comprehension / Choukai):
+   - **Zero-Script Rule trên đề thi giấy:** TUYỆT ĐỐI KHÔNG IN nội dung đoạn hội thoại hoặc bài đọc (Tapescript/Audio Script) trên đề thi dành cho thí sinh. Thí sinh tiếp nhận thông tin 100% qua file âm thanh `.mp3`.
+   - **Monolingual Mandate (Đề nghe thuần Nhật):** Đề thi nghe hiểu JLPT bắt buộc **thuần 100% tiếng Nhật** (từ câu lệnh chỉ dẫn, câu hỏi đến phương án), tuyệt đối không pha trộn tiếng Việt vào đề thi in ấn.
+   - **Quy chuẩn bố cục trên trang in PDF:**
+     + *Dạng có in phương án (Mondai 1 & 2 - Task-based / Point comprehension):* In số câu `[第X問]` hoặc `[Câu X]`, câu hỏi vắn tắt và 4 lựa chọn dàn hàng hoặc 2x2: `1. ...   2. ...   3. ...   4. ...` để thí sinh nhìn và chọn.
+     + *Dạng không in phương án (Mondai 3 & 4 - Ứng đáp nhanh 即時応答 / Khái quát):* Trên đề in chỉ ghi số thứ tự câu kèm dòng ghi chú nháp: `第X問 （メモ: ................................）` để thí sinh nghe toàn bộ câu hỏi và các lựa chọn qua audio rồi tô vào phiếu.
+   - **Đồng bộ hóa 100% với Audio (.mp3):** Mã đề thi, số lượng câu, thứ tự câu hỏi và thời gian suy nghĩ trên đề PDF phải đồng bộ chuẩn xác với file âm thanh `.mp3` kết xuất từ công cụ `generate_audio.py`.
 
 *Quy tắc chống gãy trang (Pagination Rule for PDF):*
+
 - Câu hỏi và trọn bộ 4 đáp án của câu đó **tuyệt đối không bị cắt ngang giữa 2 trang**.
 - Cuối mỗi trang phải có dòng: *(Xem tiếp trang sau)*.
 - Kết thúc câu hỏi cuối cùng phải có dòng chốt: 

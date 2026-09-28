@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "organization": "HỌC VIỆN NGÔN NGỮ QUỐC TẾ TOKYO",
+    "program": "CHƯƠNG TRÌNH ĐÀO TẠO TIẾNG NHẬT HỌC THUẬT JLPT N3",
+    "subject": "KIẾN THỨC NGÔN NGỮ (TỪ VỰNG - NGỮ PHÁP - ĐỌC HIỂU)",
+    "exam_title": "ĐỀ THI ĐÁNH GIÁ NĂNG LỰC ĐỊNH KỲ TUẦN 01",
+    "program_code": "JLPT_N3",
+    "subject_code": "NguPhapDocHieu",
+    "type_code": "DeLuyenTap",
+    "exam_code": "101",
+    "date_code": "20260919",
+    "duration_minutes": 50,
+    "total_questions": 8,
+    "date": "19/09/2026"
+  },
+  "instructions": [
+    "1. Thí sinh kiểm tra kỹ số trang và độ sắc nét của đề thi trước khi bắt đầu làm bài.",
+    "2. Mỗi câu hỏi chỉ có DUY NHẤT một đáp án đúng. Hãy đánh dấu phương án chọn vào phiếu trả lời nhanh ở trang cuối.",
+    "3. Tuyệt đối không sử dụng tài liệu, từ điển, điện thoại và các thiết bị thu phát sóng điện tử trong phòng thi."
+  ],
+  "sections": [
+    {
+      "title": "PHẦN I: TỪ VỰNG & NGỮ PHÁP (MONDAI 1)",
+      "description": "Hãy chọn phương án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau:",
+      "questions": [
+        {
+          "question": "最近、仕事が忙しくて少し疲れ（　　）だから、今夜は早く寝よう。",
+          "type": "multiple_choice",
+          "options": [
+            "気味",
+            "がち",
+            "っぽい",
+            "だらけ"
+          ]
+        },
+        {
+          "question": "一人暮らしを始めてからというもの、野菜不足に（　　）な食生活が続いている。",
+          "type": "multiple_choice",
+          "options": [
+            "気味",
+            "なりがち",
+            "っぽく",
+            "だらけ"
+          ]
+        },
+        {
+          "question": "泥（　　）の靴のまま部屋に入らないでください。",
+          "type": "multiple_choice",
+          "options": [
+            "だらけ",
+            "気味",
+            "がち",
+            "っぽい"
+          ]
+        },
+        {
+          "question": "彼はまだ二十代なのに、考え方が妙に大人（　　）ところがある。",
+          "type": "multiple_choice",
+          "options": [
+            "っぽい",
+            "気味",
+            "がち",
+            "だらけ"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PHẦN II: GHÉP CÂU DẤU SAO (MONDAI 2)",
+      "description": "Hãy sắp xếp các cụm từ [1], [2], [3], [4] theo thứ tự đúng và chọn vị trí dấu sao (★):",
+      "questions": [
+        {
+          "question": "雨が降って（　　）（　　）（　★　）（　　）出かけるのはやめよう。",
+          "type": "star_arrangement",
+          "star_parts": [
+            "1. きたし",
+            "2. 風も",
+            "3. 強くなって",
+            "4. きたから"
+          ],
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PHẦN III: ĐỌC HIỂU NGẮN (MONDAI 3)",
+      "description": "Đọc đoạn văn sau và trả lời các câu hỏi bên dưới:",
+      "reading_passage": "【Đoạn văn】\n人間は誰でも失敗をするものである。大切なのは、失敗したときに「なぜそうなったのか」を客観的に見つめ直すことだ。他人のせいにしたり、言い訳を探したりしているうちは、同じ過ちを繰り返す可能性が高い。自分の弱点と向き合うことは決して楽しい作業ではないが、それを乗り越えた先にこそ、本当の成長が待っているのである。",
+      "questions": [
+        {
+          "question": "筆者が最も伝えたいことは何か。",
+          "type": "multiple_choice",
+          "options": [
+            "失敗をしたら、言い訳をせずに原因を客観的に見つめ直して成長につなげるべきだ。",
+            "失敗をしないように、普段から慎重に行動することが何よりも重要である。",
+            "自分の弱点に向き合う作業は苦しいので、無理に克服する必要はない。",
+            "他人の失敗を責める人は、自分自身の成長を止めてしまう危険がある。"
+          ]
+        },
+        {
+          "question": "「同じ過ちを繰り返す可能性が高い」とあるが、それはどのような場合か。",
+          "type": "multiple_choice",
+          "options": [
+            "自分の弱点と正面から向き合っている場合",
+            "失敗の原因を他人のせいにしたり言い訳をしている場合",
+            "客観的に失敗の状況を振り返っている場合",
+            "失敗したことを忘れてすぐに次の行動に移る場合"
+          ]
+        },
+        {
+          "question": "この文章における「本当の成長」とは何を指しているか。",
+          "type": "multiple_choice",
+          "options": [
+            "失敗を完全にゼロにすること",
+            "他人に迷惑をかけずに自立すること",
+            "自分の弱点を乗り越えて前進すること",
+            "言い訳を上手にできるようになること"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "title": "JLPT_N3_Choukai_DeLuyenTap_101_20260928",
+  "package_name": "JLPT_N3_Choukai_DeLuyenTap_101_20260928",
+  "metadata": {
+    "program_code": "JLPT_N3",
+    "subject_code": "Choukai",
+    "type_code": "DeLuyenTap",
+    "exam_code": "101",
+    "date_code": "20260928"
+  },
+  "language": "ja-JP",
+  "output_mode": "both",
+  "settings": {
+    "narrator_voice": "ja-JP-NanamiNeural",
+    "male_voice": "ja-JP-KeitaNeural",
+    "female_voice": "ja-JP-NanamiNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz",
+    "pause_after_intro": 2.0,
+    "pause_after_instruction": 1.5,
+    "pause_between_dialogue": 0.8,
+    "pause_before_question": 1.5,
+    "pause_thinking_default": 12.0,
+    "pause_between_questions": 3.0
+  },
+  "intro": "日本語能力試験、N3、聴解試験。これから聴解試験を始めます。問題用紙を開けてください。問題用紙にメモをとっても構いません。問題１では、まず質問を聞いてください。それから話を聞いて、問題用紙の１から４の中から、最もよいものを一つ選んでください。",
+  "questions": [
+    {
+      "id": 1,
+      "title": "第1問",
+      "instruction": "会社で男の人と女の人が話しています。女の人はこれから何をしますか。",
+      "dialogue": [
+        {
+          "speaker": "male",
+          "text": "佐藤さん、明日の企画会議の準備は進んでいますか。"
+        },
+        {
+          "speaker": "female",
+          "text": "はい、会議室の予約と資料のコピーは終わりました。あとは出席者の名簿を確認するだけです。"
+        },
+        {
+          "speaker": "male",
+          "text": "あ、名簿ならさっき部長から新しい変更リストをもらったよ。佐藤さん、そのリストをもとにプロジェクターの準備も頼めるかな。"
+        },
+        {
+          "speaker": "female",
+          "text": "わかりました。では、まずプロジェクターを確認してきます。"
+        }
+      ],
+      "question": "質問：女の人はこれから何をしますか。",
+      "read_options": false,
+      "repeat": 1,
+      "thinking_time": 12
+    },
+    {
+      "id": 2,
+      "title": "第2問",
+      "instruction": "大学で先生と留学生が話しています。留学生はレポートをいつまでに提出しなければなりませんか。",
+      "dialogue": [
+        {
+          "speaker": "female",
+          "text": "先生、来週の月曜日が締め切りのレポートですが、少し締め切りを延ばしていただくことは可能でしょうか。"
+        },
+        {
+          "speaker": "male",
+          "text": "うーん、成績の提出があるからね。でも、水曜日の午前中までなら待てますよ。"
+        },
+        {
+          "speaker": "female",
+          "text": "本当ですか。ありがとうございます。水曜日の朝一番にお持ちします。"
+        },
+        {
+          "speaker": "male",
+          "text": "はい、しっかり推敲して提出してくださいね。"
+        }
+      ],
+      "question": "質問：留学生はレポートをいつまでに提出しなければなりませんか。",
+      "read_options": false,
+      "repeat": 1,
+      "thinking_time": 12
+    }
+  ],
+  "outro": "これで聴解試験を終わります。"
+}
