@@ -1,3 +1,13 @@
+### Promt gửi AI phân tích 2 file ghi âm:
+
+```promt
+
+load kỹ lưỡng file âm thanh và phân tích chi tiết từng câu nói tiếng nhật kèm bản dịch tiếng việt và tóm tắt mục đích từng đoạn hội thoại,...
+
+```
+
+## Kết quả phân tích
+
 Hai file ghi âm ghi lại cuộc họp trực tuyến vào ngày **29/09/2026** giữa quản lý/khách hàng người Nhật (nam) và đại diện nhóm lập trình viên tại Việt Nam (nữ, cùng sự tham gia của một lập trình viên nam). Nội dung xoay quanh việc kiểm tra hệ thống trước giờ cắt server cũ, cơ chế chức năng của các dự án đang phát triển (Thẩm mỹ viện, Quản lý ca làm việc), và kế hoạch triển khai các dự án mới (Dự án AI Brain, Phần mềm kế toán thị trường Indonesia).
 
 ---
