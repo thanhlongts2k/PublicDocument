@@ -1,0 +1,394 @@
+[
+  {
+    "start": 9.33,
+    "end": 10.33,
+    "ja": "どうですか?",
+    "id": 1,
+    "vi": "Thế nào?"
+  },
+  {
+    "start": 10.33,
+    "end": 11.33,
+    "ja": "ありがとうございます",
+    "id": 2,
+    "vi": "Cảm ơn bạn"
+  },
+  {
+    "start": 14.13,
+    "end": 16.8,
+    "ja": "どんな感じですか?",
+    "id": 3,
+    "vi": "Cảm giác thế nào?"
+  },
+  {
+    "start": 16.8,
+    "end": 44.76,
+    "ja": "スタッフ今、電車の方がボスマナジバンでやめたリストのスタッフのリストの社会の日ですスタッフのケースもオスタをスタッフベージーとケクベージーの方でも前回のデザイン修正を終わりましたので",
+    "id": 4,
+    "vi": "Hiện tại, danh sách nhân viên đã nghỉ theo BossManajibun trên tàu, là ngày xã hội của danh sách nhân viên. Trường hợp của nhân viên cũng đã kết thúc chỉnh sửa thiết kế lần trước cả ở Staff Page và Keku Page."
+  },
+  {
+    "start": 44.76,
+    "end": 46.76,
+    "ja": "今作業をスタッフ",
+    "id": 5,
+    "vi": "Hiện đang làm việc với nhân viên"
+  },
+  {
+    "start": 47.76,
+    "end": 74.3,
+    "ja": "今、フィーズさんはI like theノーのストップモードをビーシーバーデザインが探していますアピリーのもう一回終わりましたので今、修正していますスタのについてモードが昨日、客人がありまして",
+    "id": 6,
+    "vi": "Hiện tại, anh Fīzu đang tìm kiếm thiết kế B-C-B cho chế độ dừng của 'I like the No'. Vì Apirī đã kết thúc một lần nữa nên hiện tại đang chỉnh sửa về chế độ của Sta, vào ngày hôm qua đã có khách."
+  },
+  {
+    "start": 74.3,
+    "end": 99.95,
+    "ja": "今、作業を修正していますなので、まず検索結果はクソでと言ってないけどそれ、こちら今修正していて昨日の流れはちょっと違うあるんですけどスクソのチェックボックスで検索が全部ありましてそうですね",
+    "id": 7,
+    "vi": "Hiện tại, tôi đang sửa các công việc, nên trước tiên tôi không nói rằng kết quả tìm kiếm là tệ, nhưng vấn đề đó, tôi đang sửa ở đây, và dòng chảy của ngày hôm qua có hơi khác, nhưng có tất cả các tìm kiếm với hộp kiểm không tốt, đúng vậy."
+  },
+  {
+    "start": 99.95,
+    "end": 132.09,
+    "ja": "その流れには何時複数なんですかこちら今流れにはその3つの合わせるのをスタッフが入ればそれでも表示しますなので違いますだから10個でもはい、今修正しています連邦検索的に2個以上は1個だけ表示すれば",
+    "id": 8,
+    "vi": "Dòng chảy đó lúc nào cũng là số nhiều à? Hiện tại dòng chảy này, nếu nhân viên thêm ba cái đó lại với nhau thì vẫn sẽ hiển thị. Vì vậy là khác nhau. Cho nên dù là 10 cái cũng vậy, hiện đang sửa. Theo cách tìm kiếm liên bang, nếu có từ hai cái trở lên thì chỉ hiển thị một cái thôi."
+  },
+  {
+    "start": 132.09,
+    "end": 162.18,
+    "ja": "はい、それ内緒台は修正していますあと、もう1個はもう1個は今確認して大丈夫ですがそうですねあと、お便さんはなんか高齢庁のハスケーさんの最後の内緒台も終わりましたのでこれからなんかボシルの1個の",
+    "id": 9,
+    "vi": "Vâng, cái đó là bảng bí mật đã được sửa rồi, còn một cái nữa thì bây giờ kiểm tra cũng được. Đúng rồi, còn ông Oben thì bảng bí mật cuối cùng của ông Haskey ở Cơ quan Người cao tuổi cũng đã xong, nên từ giờ sẽ là một cái của Boshiru."
+  },
+  {
+    "start": 162.18,
+    "end": 199.77,
+    "ja": "ズイド回転内緒台何でしょうかお便りしました高齢庁のハスケーさんのとか今修正していますこれからボスリンクのズイド回転内緒台は確認していますあと、なんかキールドウェープを内緒台1個一回",
+    "id": 10,
+    "vi": "Tôi đã gửi thư hỏi về bàn quay bí mật của Zuid. Về ông Huskie của Cục Người cao tuổi, hiện đang được chỉnh sửa. Từ nay, tôi đang xác nhận bàn quay bí mật của Boss Link. Ngoài ra, có vẻ như mỗi lần một bàn bí mật của KeelD Wave."
+  },
+  {
+    "start": 199.77,
+    "end": 234.02,
+    "ja": "最後は終わりますのでコーディングアップしたらまた僕にいたしますGTUBEドッカイウィのワク内緒台で結構ほとんど終わりましたのでこれがなんかライキーのXLのケインですねこれはなんかファイル1回",
+    "id": 11,
+    "vi": "Cuối cùng sẽ kết thúc, nên khi lập trình xong tôi sẽ gửi lại cho tôi. Vì hầu hết đã xong trên bảng bí mật của GTUBE Dockaiwi, nên đây là cái cây gậy XL của Raikī này, đây là cái file một lần."
+  },
+  {
+    "start": 234.02,
+    "end": 294.34,
+    "ja": "確認してましたがなんかこちらのチクターのファイルではないので何か間違っているかまだ確認していますはいその子もやりかがはい一回ファイル1番目ファイル1番目ファイル1番目ファイル1番目",
+    "id": 12,
+    "vi": "Tôi đã kiểm tra nhưng dường như đây không phải là file của TikTok này, nên vẫn đang xác nhận xem có gì sai không. Vâng, đứa bé đó cũng đã làm rồi. Vâng, lần lượt file thứ nhất, file thứ nhất, file thứ nhất, file thứ nhất."
+  },
+  {
+    "start": 294.34,
+    "end": 308.4,
+    "ja": "ファイル1番目ファイル1番目ファイル1番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目",
+    "id": 13,
+    "vi": "Tệp thứ 1 Tệp thứ 1 Tệp thứ 1 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2"
+  },
+  {
+    "start": 308.4,
+    "end": 356.22,
+    "ja": "ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目ファイル2番目",
+    "id": 14,
+    "vi": "Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2 Tệp thứ 2"
+  },
+  {
+    "start": 356.22,
+    "end": 366.42,
+    "ja": "ファイル2番目お客さんの会見をすべているやつは誰が何だったんですか?",
+    "id": 15,
+    "vi": "Ai đã làm tất cả các buổi họp báo của khách hàng thứ hai trong tệp đó vậy?"
+  },
+  {
+    "start": 366.42,
+    "end": 375.55,
+    "ja": "それがバックエンドのコリングをしているときのバックがありましたので、会見をしたいわってたくさんしました。",
+    "id": 16,
+    "vi": "Khi đang gọi backend, đã có một lưng nên tôi đã tổ chức nhiều cuộc họp báo."
+  },
+  {
+    "start": 375.55,
+    "end": 378.55,
+    "ja": "後からしてきゅうけているやつは全部治っているんですか?",
+    "id": 17,
+    "vi": "Những cái mà sau này làm chậm lại thì có hết hết không?"
+  },
+  {
+    "start": 378.55,
+    "end": 385.06,
+    "ja": "はい。",
+    "id": 18,
+    "vi": "Vâng."
+  },
+  {
+    "start": 385.06,
+    "end": 391.11,
+    "ja": "後劇の結果がじゅうれる。",
+    "id": 19,
+    "vi": "Kết quả của vở kịch tiếp theo sẽ được kết hợp."
+  },
+  {
+    "start": 391.11,
+    "end": 429.02,
+    "ja": "バックがありましたので、お客さんのバックがありました。",
+    "id": 20,
+    "vi": "Vì có túi nên đã có túi của khách hàng."
+  },
+  {
+    "start": 429.02,
+    "end": 439.06,
+    "ja": "昨日のお客さんのファイルを送ってもらったのにファイルを似てます。",
+    "id": 21,
+    "vi": "Tôi đã nhận được tệp của khách hàng hôm qua nhưng tệp này giống nhau."
+  },
+  {
+    "start": 439.06,
+    "end": 445.65,
+    "ja": "今からちょっとしています。",
+    "id": 22,
+    "vi": "Bây giờ tôi đang làm một chút."
+  },
+  {
+    "start": 445.65,
+    "end": 454.04,
+    "ja": "今からちょっといろいろ全部入れる。",
+    "id": 23,
+    "vi": "Bây giờ tôi sẽ bỏ tất cả vào một chút."
+  },
+  {
+    "start": 454.04,
+    "end": 497.54,
+    "ja": "こちらでテストをしましたので、今そちらにもテストをしていますね。",
+    "id": 24,
+    "vi": "Vì chúng tôi đã thử nghiệm ở đây, nên bây giờ cũng đang thử nghiệm ở bên đó nhé."
+  },
+  {
+    "start": 497.54,
+    "end": 500.86,
+    "ja": "そうです。",
+    "id": 25,
+    "vi": "Đúng vậy."
+  },
+  {
+    "start": 500.86,
+    "end": 509.72,
+    "ja": "バックが気になるところがあればアップ。",
+    "id": 26,
+    "vi": "Nếu có chỗ nào trên lưng bạn quan tâm, hãy phóng to."
+  },
+  {
+    "start": 509.72,
+    "end": 523.89,
+    "ja": "デザインも?",
+    "id": 27,
+    "vi": "Cả thiết kế nữa?"
+  },
+  {
+    "start": 523.89,
+    "end": 534.08,
+    "ja": "そうですね。",
+    "id": 28,
+    "vi": "Đúng vậy."
+  },
+  {
+    "start": 534.08,
+    "end": 537.43,
+    "ja": "二人とも多分相互優秀ですよね。",
+    "id": 29,
+    "vi": "Cả hai có lẽ đều xuất sắc tương đương nhau, đúng không?"
+  },
+  {
+    "start": 537.43,
+    "end": 544.02,
+    "ja": "一人も会見しているのも一人だけですか?",
+    "id": 30,
+    "vi": "Có phải chỉ một người đang họp báo không?"
+  },
+  {
+    "start": 544.02,
+    "end": 546.02,
+    "ja": "一人だけですか?",
+    "id": 31,
+    "vi": "Chỉ có một người thôi sao?"
+  },
+  {
+    "start": 546.02,
+    "end": 550.01,
+    "ja": "これはスタートが何もしんですね。",
+    "id": 32,
+    "vi": "Cái này thì khởi đầu chẳng có gì cả."
+  },
+  {
+    "start": 550.01,
+    "end": 555.15,
+    "ja": "かなりかかないです。",
+    "id": 33,
+    "vi": "Không viết nhiều lắm."
+  },
+  {
+    "start": 555.15,
+    "end": 574.96,
+    "ja": "しかも僕が何も言ってないのにかきそうと自分で考えて、デザインの対策がありました。",
+    "id": 34,
+    "vi": "Hơn nữa, mặc dù tôi không nói gì, họ tự nghĩ ra cách viết và đã có biện pháp thiết kế."
+  },
+  {
+    "start": 574.96,
+    "end": 582.59,
+    "ja": "そうですね。",
+    "id": 35,
+    "vi": "Đúng vậy."
+  },
+  {
+    "start": 582.59,
+    "end": 598.59,
+    "ja": "返せばいいよと思われて、そこまで向こうで考えて、それらこっちで直すとか速いですよね。",
+    "id": 36,
+    "vi": "Nếu nghĩ là 'trả lại thì được thôi', thì bên đó cũng suy nghĩ đến mức đó, rồi bên này sửa lại những thứ đó cũng nhanh nhỉ."
+  },
+  {
+    "start": 598.59,
+    "end": 599.59,
+    "ja": "そうですよね。",
+    "id": 37,
+    "vi": "Đúng vậy nhỉ."
+  },
+  {
+    "start": 599.59,
+    "end": 609.54,
+    "ja": "アーティンとは最初にこっちで決めて指出して、それで確かに言うかも作ってもらって、それで指定を出すって言う。",
+    "id": 38,
+    "vi": "Về Artin thì đầu tiên sẽ quyết định và chỉ ra ở đây, sau đó chắc chắn nhờ họ tạo ra một cái gì đó để nói, rồi đưa ra chỉ định."
+  },
+  {
+    "start": 609.54,
+    "end": 614.66,
+    "ja": "フェンプレーシーは指定を出さないといけない。",
+    "id": 39,
+    "vi": "Fenpureeshī phải đưa ra chỉ định."
+  },
+  {
+    "start": 614.66,
+    "end": 630.29,
+    "ja": "とりあえずセンストでアプリで、電拠のアプリをとてもつく。",
+    "id": 40,
+    "vi": "Trước hết, trên ứng dụng SenseT, tôi sẽ tạo một ứng dụng về điện rất nhiều."
+  },
+  {
+    "start": 634.61,
+    "end": 636.61,
+    "ja": "電拠?",
+    "id": 41,
+    "vi": "Căn cứ điện?"
+  },
+  {
+    "start": 636.61,
+    "end": 675.32,
+    "ja": "電拠のアプリをとても、デザインの会計を作ることができるので、デザインとか使用が絵を決まってないので、速すぎて何もやることがないので、これ今作らして、今一人は多分、リアットとリアットネーキで作る。",
+    "id": 42,
+    "vi": "Với ứng dụng của Denkyo, có thể tạo thiết kế kế toán rất tốt, nhưng vì thiết kế hay cách sử dụng hình ảnh chưa được quyết định nên mọi thứ quá nhanh và không có gì để làm, vì vậy bây giờ để tạo, hiện có một người có lẽ sẽ làm bằng Riot và Riot Naked."
+  },
+  {
+    "start": 675.32,
+    "end": 681.32,
+    "ja": "今のフェンプのフェンプは何か使っていますか?",
+    "id": 43,
+    "vi": "Bây giờ Femp của Femp đang sử dụng gì vậy?"
+  },
+  {
+    "start": 681.32,
+    "end": 688.99,
+    "ja": "やることがあるので、どんくらいでできることができるのかなと思っています。",
+    "id": 44,
+    "vi": "Vì có việc phải làm, tôi đang tự hỏi không biết sẽ mất khoảng bao lâu để có thể làm xong."
+  },
+  {
+    "start": 688.99,
+    "end": 696.89,
+    "ja": "インドレーシーは、会社の本景実行はあると見えたので、それを作ることができる。",
+    "id": 45,
+    "vi": "Indore Shī dường như có khả năng thực hiện cảnh chính của công ty, vì vậy có thể tạo ra nó."
+  },
+  {
+    "start": 696.89,
+    "end": 698.89,
+    "ja": "何も言うことができる。",
+    "id": 46,
+    "vi": "Tôi có thể nói gì đó."
+  },
+  {
+    "start": 698.89,
+    "end": 704.33,
+    "ja": "会社の本景者ですが、フェンスを使っていますか?",
+    "id": 47,
+    "vi": "Tôi là người giám sát chính của công ty, bạn có đang sử dụng hàng rào không?"
+  },
+  {
+    "start": 704.33,
+    "end": 709.86,
+    "ja": "フェンプレーシーとフェンプレーシーを作っています。",
+    "id": 48,
+    "vi": "Tôi đang làm Fempurēshī và Fempurēshī."
+  },
+  {
+    "start": 709.86,
+    "end": 716.54,
+    "ja": "テープレーシーとインドレーシーを作っています。",
+    "id": 49,
+    "vi": "Tôi đang làm băng cát-xét và băng ấn độ."
+  },
+  {
+    "start": 716.54,
+    "end": 720.1,
+    "ja": "テープレーとかになります。",
+    "id": 50,
+    "vi": "Sẽ là cái kiểu như te-pu-rē."
+  },
+  {
+    "start": 721.1,
+    "end": 728.46,
+    "ja": "フェンプレーシーはインドレーシーを作ります。",
+    "id": 51,
+    "vi": "Fenpureeshii làm Indoreeshii."
+  },
+  {
+    "start": 728.46,
+    "end": 730.49,
+    "ja": "それはしょうがないです。",
+    "id": 52,
+    "vi": "Không còn cách nào khác."
+  },
+  {
+    "start": 730.49,
+    "end": 734.26,
+    "ja": "できることができる。",
+    "id": 53,
+    "vi": "Có thể làm những gì có thể làm."
+  },
+  {
+    "start": 734.26,
+    "end": 744.37,
+    "ja": "一日で多分、知らなかったので、サウダーを修正することができる。",
+    "id": 54,
+    "vi": "Có lẽ trong một ngày, vì không biết, nên có thể sửa chữa Saudā."
+  },
+  {
+    "start": 744.37,
+    "end": 772.15,
+    "ja": "フェンプレーシーが、この会計の経済式のときは、三倍しょうがないので、今すわせています。",
+    "id": 55,
+    "vi": "Fempleci, khi đến công thức kinh tế của kế toán này, không thể tránh khỏi ba lần, nên bây giờ đang giải quyết."
+  },
+  {
+    "start": 772.15,
+    "end": 774.15,
+    "ja": "はい、マスマスターです。",
+    "id": 56,
+    "vi": "Vâng, tôi là Masu Master."
+  }
+]
