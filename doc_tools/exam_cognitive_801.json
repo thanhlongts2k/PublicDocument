@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "organization": "HỌC VIỆN KHOA HỌC NHẬN THỨC & LÃNH ĐẠO ĐA NGÀNH",
+    "program": "CHƯƠNG TRÌNH HUẤN LUYỆN MÔ HÌNH TƯ DUY & NĂNG LỰC RA QUYẾT ĐỊNH",
+    "subject": "TƯ DUY PHẢN BIỆN, NGUYÊN LÝ KHỞI NGUYÊN & HỆ THỐNG",
+    "exam_title": "BỘ ĐỀ THỬ THÁCH NĂNG LỰC TƯ DUY & BÓC TÁCH BẪY NHẬN THỨC",
+    "program_code": "COG",
+    "subject_code": "TuDuyChienLuoc",
+    "type_code": "DeThuThach",
+    "exam_code": "801",
+    "date_code": "20261025",
+    "duration_minutes": 60,
+    "total_questions": 8,
+    "date": "25/10/2026"
+  },
+  "instructions": [
+    "1. Đề thi gồm 08 tình huống phức tạp mô phỏng thực tế. Thí sinh đọc kỹ bối cảnh trước khi lựa chọn phương án tối ưu.",
+    "2. Mỗi câu hỏi được thiết kế theo 4 tầng bậc nhận thức (từ Cảm tính đến Tư duy Hệ thống / First Principles). Chỉ có DUY NHẤT một phương án tối ưu toàn diện nhất.",
+    "3. Hãy đánh dấu phương án chọn vào Phiếu trả lời trắc nghiệm nhanh ở trang cuối cùng của đề thi."
+  ],
+  "sections": [
+    {
+      "title": "PHẦN I: TƯ DUY BẬC 2, NGUYÊN LÝ KHỞI NGUYÊN & QUẢN TRỊ RỦI RO CÔNG NGHỆ",
+      "description": "Đọc kỹ các tình huống thực tế và lựa chọn phương án ra quyết định thể hiện năng lực tư duy tối ưu nhất:",
+      "questions": [
+        {
+          "question": "【Tình huống 1】Một công ty Fintech giai đoạn hạt giống (Seed stage) có 5.000 người dùng hàng ngày. Đội ngũ kỹ sư trẻ đề xuất chuyển đổi toàn bộ kiến trúc Monolith sang Microservices phân tán với Kafka, Kubernetes và gRPC với lý do 'chuẩn bị sẵn sàng cho 5 triệu người dùng trong tương lai'. Dự án này sẽ mất 4 tháng và toàn bộ tính năng kinh doanh mới phải tạm dừng. Với vai trò Cố vấn Trưởng hoặc CTO, bạn sẽ ra quyết định thế nào?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Đồng ý ngay lập tức vì Microservices là xu hướng công nghệ tiên tiến chuẩn mực quốc tế mà các tập đoàn hàng đầu thế giới đang áp dụng.",
+            "B. Từ chối thẳng thừng và yêu cầu lập trình viên tiếp tục nhồi nhét mã nguồn vào Monolith mà không cần quy chuẩn kiến trúc nào nhằm tiết kiệm tối đa ngân sách.",
+            "C. Cho phép tách thử nghiệm 1 hoặc 2 dịch vụ phụ trợ sang Microservices để kỹ sư học hỏi công nghệ mới, nhưng vẫn bắt buộc phải kịp tiến độ tính năng kinh doanh.",
+            "D. Áp dụng nguyên lý Modular Monolith: Tối ưu hoá tiến trình đơn nhất để tiết kiệm hạ tầng và tốc độ deploy, đồng thời phân lập ranh giới module nghiêm ngặt theo DDD; chỉ bóc tách khi có số liệu nghẽn tải thực tế."
+          ]
+        },
+        {
+          "question": "【Tình huống 2】Một nền tảng SaaS B2B có tỷ lệ hủy gói đăng ký (Churn rate) trong 3 tháng đầu là 35%. Giám đốc Sản phẩm tổ chức phỏng vấn 50 khách hàng VIP trung thành nhất (đã dùng trên 2 năm). Nhóm VIP này yêu cầu thêm tính năng phân tích biểu đồ tài chính chuyên sâu. Giám đốc đề xuất dồn toàn bộ nguồn lực quý tới để phát triển tính năng này nhằm giữ chân khách hàng. Lựa chọn nào phản ánh tư duy chiến lược sâu sắc nhất?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Lập tức triển khai tính năng theo yêu cầu của 50 khách hàng VIP vì họ là nguồn doanh thu lớn nhất và khách hàng luôn luôn đúng.",
+            "B. Không làm tính năng mới mà giảm giá 50% phí thuê bao tháng đầu cho toàn bộ khách hàng mới để giảm tỷ lệ churn rate trước mắt.",
+            "C. Tiếp tục gửi bảng khảo sát cho 500 khách hàng tầm trung hiện tại để thu thập thêm số liệu trước khi ra quyết định kỹ thuật.",
+            "D. Nhận diện bẫy Thiên kiến Sinh tồn (Survivorship Bias). Áp dụng Tư duy Nghịch đảo (Inversion): Phỏng vấn chính những khách hàng đã rời bỏ trong 14 ngày đầu để triệt tiêu ma sát tại khâu Onboarding thay vì phục vụ nhóm thiểu số sống sót."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PHẦN II: TƯ DUY HỆ THỐNG, QUẢN TRỊ HIỆU SUẤT & TƯ DUY XÁC SUẤT BẤT ĐỐI XỨNG",
+      "description": "Phân tích các quy luật hệ thống, phản hồi ngược và rủi ro bất đối xứng trong các tình huống sau:",
+      "questions": [
+        {
+          "question": "【Tình huống 3】Để nâng cao chất lượng phần mềm, Ban Giám đốc ban hành chính sách KPI: 'Mỗi Tester được thưởng 200.000đ cho mỗi bug tìm thấy. Đội ngũ Lập trình viên sẽ bị trừ điểm đánh giá nếu tính năng của mình bị phát hiện có lỗi'. Đánh giá nào sau đây thể hiện tầm nhìn Tư duy Hệ thống chuẩn xác nhất về chính sách này?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Chính sách rất tuyệt vời vì có thưởng phạt phân minh, thúc đẩy Tester vạch lá tìm sâu và bắt buộc Lập trình viên phải cẩn trọng tối đa.",
+            "B. Nên tăng tiền thưởng lên 500.000đ và tăng mức phạt gấp đôi để tạo áp lực mạnh mẽ hơn nữa giúp triệt tiêu hoàn toàn lỗi phần mềm.",
+            "C. Bổ sung quy định chỉ tính thưởng cho Tester khi lỗi đó được Trưởng nhóm kỹ thuật xác nhận là lỗi hợp lệ nhằm tránh tình trạng spam lỗi vặt.",
+            "D. Kích hoạt Hiệu ứng Rắn hổ mang (Cobra Effect) & Định luật Goodhart: Khi thước đo thành mục tiêu, nó không còn là thước đo tốt. Lập trình viên và Tester sẽ thông đồng chia nhỏ lỗi, né tránh tính năng phức tạp; cần xóa bỏ KPI đếm lỗi và dùng chỉ số toàn cục."
+          ]
+        },
+        {
+          "question": "【Tình huống 4】Một quỹ đầu tư được mời rót vốn vào Dự án X: Xác suất thành công theo mô hình toán là 90%, mang lại lợi nhuận gấp đôi vốn đầu tư (+100%). Tuy nhiên, ở kịch bản 10% rủi ro, dự án vướng tranh chấp pháp lý bất định có thể dẫn đến việc toàn bộ quỹ bị phong tỏa tài sản và phá sản hoàn toàn. Chủ tịch Hội đồng Quản trị chỉ nhìn vào Giá trị Kỳ vọng (Expected Value) dương và muốn giải ngân. Bạn sẽ phản biện ra sao?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Đồng ý giải ngân toàn bộ số vốn vì xác suất 90% thành công là con số cực kỳ an toàn trong thị trường đầu tư mạo hiểm.",
+            "B. Đề xuất giải ngân 50% quy mô quỹ để nếu rủi ro xảy ra thì quỹ vẫn còn 50% tiền mặt để tiếp tục hoạt động.",
+            "C. Đàm phán ký thêm điều khoản miễn trừ trách nhiệm cá nhân với các bên liên quan rồi tiếp tục tiến hành giải ngân đầu tư.",
+            "D. Bác bỏ dứt khoát dựa trên Nguyên lý Rủi ro Xóa sổ (Risk of Ruin): Khi có xác suất dẫn đến cái chết hoàn toàn, Giá trị Kỳ vọng toán học trở nên vô nghĩa. Áp dụng Chiến lược Quả tạ (Barbell Strategy) để bảo toàn sự tồn tại tuyệt đối."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PHẦN III: PHẢN BIỆN LẬP LUẬN, LÝ THUYẾT ĐIỂM NGHẼN & SIÊU NHẬN THỨC",
+      "description": "Bóc tách các bẫy ngụy biện logic, tối ưu hóa toàn cục và tự soi chiếu ranh giới năng lực cá nhân:",
+      "questions": [
+        {
+          "question": "【Tình huống 5】Trong cuộc họp về chính sách làm việc từ xa (Remote Work), một vị Giám đốc phát biểu: 'Nếu tiếp tục cho nhân viên làm việc tại nhà, họ sẽ lười biếng, làm mất hết tính kỷ luật và văn hóa công ty sẽ sụp đổ. Do đó, lựa chọn duy nhất là bắt buộc 100% nhân sự phải có mặt tại văn phòng đúng 8h sáng từ thứ Hai đến thứ Bảy'. Lập luận trên mắc phải lỗi tư duy cốt lõi nào?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Không mắc lỗi nào vì tính kỷ luật tại văn phòng luôn là nền tảng sống còn của mọi tổ chức vững mạnh.",
+            "B. Mắc lỗi công kích cá nhân (Ad Hominem) vì coi thường danh dự và sự tự giác của đội ngũ nhân sự trong công ty.",
+            "C. Mắc lỗi ngụy biện vi phạm bản quyền quy trình vì không tham khảo mô hình làm việc của các công ty công nghệ đa quốc gia.",
+            "D. Đồng thời mắc ngụy biện Nhị nguyên giả tạo (False Dilemma) và Dốc trượt đứng (Slippery Slope). Cần tái định hình bài toán (Reframing) sang quản trị theo đầu ra (Output-based Management) thay vì quản lý vị trí địa lý."
+          ]
+        },
+        {
+          "question": "【Tình huống 6】Một chuỗi phát triển phần mềm gồm 4 khâu liên hoàn: Nghiên cứu BA (20 task/tuần) -> Lập trình Dev (18 task/tuần) -> Kiểm thử QA (6 task/tuần) -> Triển khai DevOps (30 task/tuần). Ban Giám đốc chi 500 triệu mua công cụ AI giúp Dev gõ code nhanh gấp đôi (nâng công suất Dev lên 36 task/tuần). Dựa trên Lý thuyết Điểm nghẽn (Theory of Constraints - TOC), nhận định nào sau đây chuẩn xác nhất?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Quyết định hoàn hảo vì Dev là lực lượng nòng cốt, Dev làm nhanh gấp đôi thì sản phẩm bàn giao cho khách hàng sẽ nhanh gấp đôi.",
+            "B. Cần chi tiếp 1 tỷ đồng để mua AI trang bị đồng bộ cho cả khâu BA và DevOps để toàn bộ công ty cùng tăng tốc.",
+            "C. Ép đội QA làm thêm giờ (OT) cả thứ Bảy và Chủ Nhật để cố gắng chạy theo lượng mã nguồn khổng lồ do Dev tạo ra.",
+            "D. Khoản đầu tư gây lãng phí và làm hệ thống tệ hại hơn. Tốc độ đầu ra toàn cục do Điểm nghẽn QA (6 task/tuần) quyết định. Cần tập trung nguồn lực giải phóng điểm nghẽn QA và áp dụng giới hạn WIP Limit cho khâu Dev."
+          ]
+        },
+        {
+          "question": "【Tình huống 7】Một công ty thiết bị thông minh nhận thấy bộ vi mạch điều khiển nhập khẩu chiếm 65% giá thành sản phẩm, khiến giá bán không thể cạnh tranh được với đối thủ. Nhóm R&D đề xuất tìm nhà xưởng gia công linh kiện loại 2 có chất lượng kém hơn 20% để hạ giá thành 15%. Tư duy Nguyên lý Khởi nguyên (First Principles Thinking) sẽ tiếp cận bài toán này như thế nào?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Chấp nhận hạ chất lượng linh kiện vì người tiêu dùng trên thị trường hiện nay chỉ quan tâm duy nhất đến yếu tố giá rẻ.",
+            "B. Giữ nguyên vi mạch đắt tiền và tăng ngân sách marketing để thuyết phục khách hàng rằng chất lượng cao đáng giá tiền hơn.",
+            "C. Tiếp tục đàm phán xin đối tác cung cấp giảm giá 5% bằng cam kết tăng sản lượng đơn đặt hàng trong 3 năm liên tiếp.",
+            "D. Bóc tách bài toán về chi phí vật liệu thô (BOM) cơ bản nhất. Loại bỏ 70% tính năng thừa trên chip ngoại nhập; tự thiết kế vi mạch nhúng tối giản chuyên biệt, giúp hạ 50% chi phí mà giữ nguyên độ bền và tính năng cốt lõi."
+          ]
+        },
+        {
+          "question": "【Tình huống 8】Một Kỹ sư Công nghệ xuất sắc 10 năm kinh nghiệm vừa nhận được khoản tiền thưởng lớn. Anh được người quen mời góp vốn mở nhà hàng ẩm thực cao cấp, cam kết lãi 40%/năm. Anh chưa từng kinh doanh F&B nhưng tự tin: 'Hệ thống phần mềm phức tạp triệu người dùng mình còn làm được, quản lý quán ăn nhỏ có gì khó!'. Áp dụng Siêu nhận thức (Metacognition) và Vòng tròn Năng lực (Circle of Competence), anh nên nhận thức điều gì?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Nên đầu tư toàn bộ số tiền vì người thông minh và có tư duy logic cao thì làm bất kỳ ngành nghề nào cũng sẽ gặt hái thành công.",
+            "B. Đăng ký học ngay một khóa quản trị nhà hàng ngắn hạn 2 tuần rồi tự tin giải ngân vốn để nắm quyền điều hành doanh nghiệp.",
+            "C. Góp vốn 50% và giao phó toàn bộ quyền vận hành cho người bạn, bản thân chỉ đứng tên cổ đông và ngồi chờ chia cổ tức hàng tháng.",
+            "D. Nhận thức mình đang rơi vào bẫy Ảo tưởng Chuyển giao Năng lực và Hiệu ứng Dunning-Kruger. Lĩnh vực F&B nằm ngoài Vòng tròn Năng lực (Circle of Competence); kiên quyết từ chối đánh cược tài sản vào lĩnh vực mình không hiểu sâu sắc."
+          ]
+        }
+      ]
+    }
+  ]
+}

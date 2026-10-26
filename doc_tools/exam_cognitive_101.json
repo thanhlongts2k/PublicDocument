@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "organization": "HỌC VIỆN KHOA HỌC NHẬN THỨC & TƯ DUY NỀN TẢNG",
+    "program": "CHƯƠNG TRÌNH HUẤN LUYỆN TƯ DUY LOGIC & PHẢN BIỆN CĂN BẢN",
+    "subject": "TƯ DUY LOGIC CĂN BẢN & BÓC TÁCH BẪY NHẬN THỨC",
+    "exam_title": "BỘ ĐỀ THỬ THÁCH NĂNG LỰC TƯ DUY LOGIC DÀNH CHO NGƯỜI MỚI BẮT ĐẦU",
+    "program_code": "COG",
+    "subject_code": "LogicCanBan",
+    "type_code": "DeLuyenTap",
+    "exam_code": "101",
+    "date_code": "20261025",
+    "duration_minutes": 45,
+    "total_questions": 8,
+    "date": "25/10/2026"
+  },
+  "instructions": [
+    "1. Đề thi gồm 08 câu hỏi tình huống đời sống và công việc thực tế, thiết kế riêng cho người mới bắt đầu rèn luyện tư duy logic.",
+    "2. Hãy đọc kỹ từng dữ kiện, gạt bỏ định kiến cảm tính (Hệ thống 1) và áp dụng suy luận logic chặt chẽ (Hệ thống 2) để chọn phương án tối ưu.",
+    "3. Mỗi câu hỏi chỉ có DUY NHẤT một đáp án đúng logic nhất. Hãy đánh dấu phương án vào phiếu trả lời nhanh ở trang cuối."
+  ],
+  "sections": [
+    {
+      "title": "PHẦN I: TƯƠNG QUAN VS NHÂN QUẢ, ĐIỀU KIỆN CẦN/ĐỦ & BẪY CHI PHÍ CHÌM",
+      "description": "Phân tích các tình huống đời sống thường gặp và phát hiện lỗ hổng logic tiềm ẩn:",
+      "questions": [
+        {
+          "question": "【Tình huống 1】Một bản tin sức khỏe giật tít: 'Nghiên cứu trên 100.000 người cho thấy: Những người thường xuyên ăn socola đen có tỷ lệ mắc bệnh tim mạch thấp hơn 40% so với người không ăn. Do đó, để ngăn ngừa bệnh tim, tất cả mọi người nên bắt đầu ăn socola đen mỗi ngày'. Nhận định nào sau đây thể hiện tư duy phản biện khoa học nhất?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Mua ngay socola đen cho cả gia đình ăn mỗi ngày vì mẫu số 100.000 người là bằng chứng khoa học tuyệt đối chính xác.",
+            "B. Socola đen chắc chắn chứa một dược chất thần kỳ tự chữa lành bệnh tim mà y học hiện đại chưa tìm ra.",
+            "C. Bài báo lừa đảo hoàn toàn vì socola vốn chỉ gây béo phì và tiểu đường, không thể có lợi ích tim mạch.",
+            "D. Đánh đồng Tương quan với Nhân quả (Correlation is not Causation). Con số 40% chưa chứng minh socola là nguyên nhân trực tiếp; có thể do người ăn socola cao cấp có thu nhập cao và điều kiện chăm sóc y tế tốt hơn."
+          ]
+        },
+        {
+          "question": "【Tình huống 2】Trưởng phòng thông báo: 'Bất kỳ nhân sự nào muốn được bổ nhiệm lên Quản lý thì BẮT BUỘC phải có chứng chỉ Quản lý Dự án PMP'. Tuấn vừa thi đỗ chứng chỉ PMP và bức xúc vì công ty chưa bổ nhiệm mình làm Quản lý ngay trong tháng. Tuấn đã mắc phải lỗi tư duy logic nào?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Trưởng phòng đã thất hứa và trù dập Tuấn vì rõ ràng có chứng chỉ PMP là phải được lên làm quản lý ngay lập tức.",
+            "B. Tuấn nên nộp đơn nghỉ việc vì một công ty đòi chứng chỉ mà không thăng chức ngay là công ty gian lận nhân sự.",
+            "C. Tuấn nên thi thêm 2 chứng chỉ quản trị quốc tế nữa trong tháng tới để ép công ty phải ra quyết định bổ nhiệm.",
+            "D. Đánh đồng Điều kiện Cần (Necessary Condition) với Điều kiện Đủ (Sufficient Condition). Chứng chỉ PMP là điều kiện bắt buộc tối thiểu, không phải bảo chứng duy nhất đủ để được thăng chức mà còn cần năng lực thực tế."
+          ]
+        },
+        {
+          "question": "【Tình huống 3】Lan mua vé xem hòa nhạc 500.000đ. Sau 30 phút, âm thanh bị rè, ban nhạc chơi dở và Lan bị đau đầu dữ dội. Bạn khuyên về nghỉ nhưng Lan kiên quyết: 'Vé tận 500.000đ, về sớm là phí tiền, phải ráng ngồi hết 3 tiếng cho bõ!'. Quyết định của Lan bộc lộ bẫy tâm lý nào?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Quyết định đúng đắn vì kiếm tiền rất vất vả, bỏ về sớm là biểu hiện của sự lãng phí tiền bạc của bản thân.",
+            "B. Nên ngồi lại nhưng bịt tai hoặc nằm ngủ trên ghế cho hết giờ để không bị lãng phí số tiền 500.000đ đã bỏ ra.",
+            "C. Ngồi lại và liên tục đăng bài lên mạng xã hội chửi bới ban tổ chức suốt 2 tiếng rưỡi còn lại để giải tỏa bực tức.",
+            "D. Sập bẫy Chi phí Chìm (Sunk Cost Fallacy). Tiền vé đã mất và không thể lấy lại; ngồi lại chỉ khiến Lan chịu đựng thêm đau đầu. Lựa chọn hợp lý nhất là rời đi ngay để bảo vệ sức khỏe và sử dụng thời gian có ích hơn."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PHẦN II: THIÊN KIẾN XÁC NHẬN, BẪY THỐNG KÊ & LOGIC HÌNH THỨC",
+      "description": "Bóc tách các sai lệch nhận thức trong việc xử lý số liệu và suy luận tam đoạn luận:",
+      "questions": [
+        {
+          "question": "【Tình huống 4】Nam tin rằng: 'Người sinh tháng 7 rất dễ khóc'. Hôm nay Nam thấy Mai (sinh tháng 7) khóc, liền bảo: 'Thấy chưa, người sinh tháng 7 ai cũng yếu đuối!'. Tuy nhiên, Nam hoàn toàn bỏ qua việc cả tuần qua anh đã gặp 5 người khác sinh tháng 7 rất cứng rắn và không hề khóc. Nam đang mắc phải thiên kiến nhận thức nào?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Nam hoàn toàn có lý vì bằng chứng thực tế mắt thấy tai nghe là Mai đã khóc thật, không ai chối cãi được.",
+            "B. Mai khóc chứng minh mọi người sinh tháng 7 đều có tuyến lệ hoạt động nhạy cảm hơn người sinh các tháng khác.",
+            "C. Nam chỉ cần gặp thêm 1 người sinh tháng 7 nữa khóc là giả thuyết này được xác thực đúng đắn 100%.",
+            "D. Thiên kiến Xác nhận (Confirmation Bias) và Bẫy hái quả (Cherry-picking). Não bộ tự động ghi nhớ bằng chứng phù hợp và phớt lờ bằng chứng phản chứng. Muốn kiểm định, phải chủ động tìm kiếm bằng chứng bác bỏ."
+          ]
+        },
+        {
+          "question": "【Tình huống 5】Một công ty tuyển dụng: 'Lương trung bình nhân viên là 50 triệu/tháng!'. Vào làm, Hùng phát hiện: Giám đốc nhận lương 410 triệu/tháng, còn 9 nhân viên còn lại nhận lương đúng 10 triệu/tháng. Giám đốc giải thích (410 + 10x9)/10 = 50 triệu là số học chuẩn xác. Bản chất logic ở đây là gì?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Giám đốc hoàn toàn đúng, toán học không bao giờ nói dối và Hùng nên tự trách mình chưa nỗ lực đủ để đạt mức đó.",
+            "B. Hùng nên yêu cầu Giám đốc giảm lương cá nhân để mức lương trung bình của công ty trở về đúng con số 10 triệu.",
+            "C. Đây là chuyện bình thường của thị trường lao động, không có vấn đề gì liên quan đến tư duy logic hay toán học.",
+            "D. Chiêu trò dùng Số trung bình (Mean) bị bóp méo bởi điểm ngoại lai cực đại (Outlier). Khi dữ liệu có chênh lệch khủng khiếp, thước đo trung thực duy nhất để phản ánh thu nhập số đông phải là Số Trung Vị (Median = 10 triệu)."
+          ]
+        },
+        {
+          "question": "【Tình huống 6】Xét lập luận tam đoạn luận sau: 'Tiền đề 1: Tất cả các con chó đều có 4 chân. Tiền đề 2: Con mèo nhà tôi cũng có 4 chân. Kết luận: Do đó, con mèo nhà tôi chính là một con chó'. Lỗi logic cốt lõi của lập luận này là gì?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Lập luận sai chỉ vì tiếng kêu của chó và mèo khác nhau, hoàn toàn không liên quan đến cấu trúc lập luận.",
+            "B. Lập luận đúng về mặt suy luận logic, chỉ sai trên thực tế vì mèo không thuộc họ nhà chó.",
+            "C. Lập luận sai vì con mèo có thể bị tai nạn cụt chân nên chỉ còn 3 chân chứ không phải lúc nào cũng có 4 chân.",
+            "D. Mắc lỗi Khẳng định Hệ quả (Affirming the Consequent). 'Có 4 chân' là thuộc tính chung của nhiều loài vật, không thể suy ngược từ việc có thuộc tính chung sang việc đồng nhất hai loài với nhau."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PHẦN III: LẬP LUẬN VÒNG QUANH & BẪY ĐÓNG KHUNG NHỊ NGUYÊN",
+      "description": "Nhận diện bẫy ngụy biện tự chứng minh và mở rộng góc nhìn giải quyết tình thế lưỡng nan:",
+      "questions": [
+        {
+          "question": "【Tình huống 7】An hỏi: 'Tại sao cậu tin cuốn sách này luôn đúng 100%?'. Bình đáp: 'Vì trang đầu tác giả khẳng định mình là bậc thông thái không bao giờ sai'. An hỏi tiếp: 'Thế sao tin tác giả không bao giờ sai?'. Bình trả lời: 'Vì điều đó được ghi rõ trong cuốn sách luôn đúng này!'. Lập luận của Bình mắc lỗi gì?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Bình lập luận rất thuyết phục vì sách đã xuất bản có bản quyền thì thông tin in trong sách là sự thật.",
+            "B. Lập luận của Bình sai vì tác giả cuốn sách chưa nộp hồ sơ xin thẩm định từ hội đồng khoa học quốc gia.",
+            "C. Bình đúng một nửa, vì sách khoa học có thể đúng tới 90% chứ không hoàn toàn tuyệt đối 100%.",
+            "D. Ngụy biện Lập luận Vòng quanh (Circular Reasoning / Begging the Question). Tiền đề và kết luận dựa dẫm lẫn nhau; một mệnh đề không thể tự chứng minh tính đúng đắn nếu thiếu bằng chứng độc lập bên ngoài."
+          ]
+        },
+        {
+          "question": "【Tình huống 8】Người quen bảo Minh: 'Đời người chỉ có 2 con đường: Hoặc an phận làm công ăn lương suốt đời nghèo khó, hoặc phải nghỉ việc ngay để khởi nghiệp kinh doanh mới mong giàu có tự do tài chính'. Người có tư duy logic sắc bén sẽ phản biện ra sao?",
+          "type": "multiple_choice",
+          "options": [
+            "A. Hoàn toàn đồng ý vì làm thuê không bao giờ giàu được, bắt buộc phải liều mạng nghỉ việc ra ngoài mở công ty.",
+            "B. Chọn con đường thứ nhất, chấp nhận số phận nghèo khó cả đời vì khởi nghiệp quá rủi ro và đáng sợ.",
+            "C. Cảm thấy cuộc sống bế tắc tuyệt vọng vì cả hai con đường đều quá gian nan và không muốn phấn đấu nữa.",
+            "D. Bóc tách ngụy biện Nhị nguyên giả tạo (False Dilemma). Cuộc sống có vô số lựa chọn thứ ba: Trở thành chuyên gia xuất sắc thu nhập cao, làm việc kết hợp đầu tư tài sản, hoặc xây dựng dự án kinh doanh phụ an toàn."
+          ]
+        }
+      ]
+    }
+  ]
+}
